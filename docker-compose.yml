@@ -1,0 +1,17 @@
+version: "2"
+services:
+  static:
+    image: "nginx:alpine"
+    restart: always
+    environment:
+      - VIRTUAL_HOST=ritasneki.ru
+      # - VIRTUAL_PORT=8043
+      - LETSENCRYPT_HOST=ritasneki.ru
+      - LETSENCRYPT_EMAIL=nonamenix@gmail.com
+    volumes:
+      - ./public:/usr/share/nginx/html
+
+networks:
+  default:
+    external:
+      name: petprojects_default

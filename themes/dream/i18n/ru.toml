@@ -1,0 +1,44 @@
+[blogAlias]
+other = ""
+
+[home]
+other = "Главная"
+
+[backToHome]
+other = "Вернуться на главную"
+
+[flip]
+other = "Flip it!"
+
+[archives]
+other = "Archives"
+
+[allTags]
+other = "All Tags"
+
+[tag]
+one = "Тег"
+other = "{{ .Count }} тегов"
+
+[allCategories]
+other = "All Categories"
+
+[category]
+one = "category"
+other = "{{ .Count }} categories"
+
+[article]
+one = "1 article"
+other = "{{ .Count }} articles"
+
+[socialLinks]
+other = "Social Links"
+
+[minuteRead]
+other = " minute read"
+
+[updateAt]
+other = "Update at"
+
+[noTag]
+other = "No Tags"

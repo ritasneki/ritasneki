@@ -1,0 +1,8 @@
+baseURL = "http://ritasneki.ru/"
+languageCode = "ru"
+title = "RitaSneki.ru"
+theme = "dream"
+
+[params]
+  author = "Рита"
+  avatar = "/photos/avatar.jpg"
