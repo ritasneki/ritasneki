@@ -8,6 +8,4 @@
 <script src="/js/main.js"></script>
 <script src="/js/theme.js"></script>
 
-{{ if .Site.GoogleAnalytics }}
-  {{ template "_internal/google_analytics_async.html" . }}
-{{ end }}
+{{ if .Site.GoogleAnalytics }} {{ template "_internal/google_analytics_async.html" . }} {{ end }}

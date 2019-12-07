@@ -11,7 +11,7 @@
       <div class="sub header" style="margin-top: 0.5rem;">{{- .Site.Params.motto -}}</div>
     </h3>
 
-    <div class="ui horizontal list">
+    <!-- <div class="ui horizontal list">
       {{ if gt (len (where .Site.RegularPages "Section" "==" "posts")) 0 }}
       <a class="item" href="/posts">
         <i class="archive icon" title="{{ i18n "archives" }}"></i>
@@ -23,7 +23,7 @@
       <a class="item" href="/categories">
         <i class="th list icon" title="{{ i18n "allCategories" }}"></i>
       </a>
-    </div>
+    </div> -->
   </section>
 
   {{ if .Site.Taxonomies.tags }}
@@ -62,8 +62,29 @@
       {{ if .Site.Params.siteStartYear }}
       <p>© {{ if eq now.Year .Site.Params.siteStartYear }}{{ now.Year }}{{ else }}{{ .Site.Params.siteStartYear }} - {{ now.Year }}{{ end }} {{ .Site.Title }}</p>
       {{ else }}
-      <p>© {{ now.Year }} {{ .Site.Title }}</p>
+      <!-- <p>© {{ now.Year }} {{ .Site.Title }}</p> -->
       {{ end }}
-      <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
+      <p>
+        <a href="https://t.me/ritasneki" >
+          <button class="ui facebook button">
+            <i class="telegram icon"> </i>Telegram
+          </button>
+        </a>
+      </p>
+      <p>
+        <a href="https://instagr.am/ritasneki">
+          <button class="ui instagram button">
+          <i class="instagram icon"></i>Instagram
+          </button>
+        </a>
+      </p>
+      <p>
+        <a href="http://wa.me/79117641589">
+          <button class="ui green button">
+            <i class="whatsapp square icon"></i>WhatsApp
+          </button>
+        </a>
+      </p>
+      <!-- <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p> -->
   </section>
 </article>

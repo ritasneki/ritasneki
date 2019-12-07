@@ -5,11 +5,20 @@
     <link>http://ritasneki.ru/posts/</link>
     <description>Recent content in Posts on RitaSneki.ru</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ru-RU</language>
+    <language>ru</language>
     <lastBuildDate>Sun, 24 Nov 2019 15:02:34 +0300</lastBuildDate>
     
 	<atom:link href="http://ritasneki.ru/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Мясные чипсы</title>
+      <link>http://ritasneki.ru/posts/meat-chips/</link>
+      <pubDate>Sun, 24 Nov 2019 15:02:34 +0300</pubDate>
+      
+      <guid>http://ritasneki.ru/posts/meat-chips/</guid>
+      <description>Яблоко-банан 100₽ за 50гр</description>
+    </item>
     
     <item>
       <title>Пастила Банан-Яблоко</title>
@@ -17,7 +26,7 @@
       <pubDate>Sun, 24 Nov 2019 15:02:34 +0300</pubDate>
       
       <guid>http://ritasneki.ru/posts/pastila-banan-yabloko/</guid>
-      <description>&lt;p&gt;Цена 100₽ за 50гр&lt;/p&gt;</description>
+      <description>Яблоко-банан 100₽ за 50гр</description>
     </item>
     
     <item>
@@ -26,7 +35,7 @@
       <pubDate>Sun, 24 Nov 2019 15:02:34 +0300</pubDate>
       
       <guid>http://ritasneki.ru/posts/pastila-vinograd/</guid>
-      <description>&lt;p&gt;Цена 120₽ за 50 гр.&lt;/p&gt;</description>
+      <description>Яблоко-виноград 120₽ за 50 гр</description>
     </item>
     
     <item>
@@ -35,7 +44,7 @@
       <pubDate>Sun, 24 Nov 2019 15:02:34 +0300</pubDate>
       
       <guid>http://ritasneki.ru/posts/pastila-vishnya/</guid>
-      <description>&lt;p&gt;Цена 120₽ за 50 гр.&lt;/p&gt;</description>
+      <description>Яблоко-вишня 120₽ за 50 гр</description>
     </item>
     
     <item>
@@ -44,7 +53,7 @@
       <pubDate>Sun, 24 Nov 2019 15:02:34 +0300</pubDate>
       
       <guid>http://ritasneki.ru/posts/pastila-brusnika-med-yabloko/</guid>
-      <description>&lt;p&gt;Цена 130₽ за 50 гр&lt;/p&gt;</description>
+      <description>Яблоко-брусника-мёд 130₽ за 50 гр</description>
     </item>
     
     <item>
@@ -53,7 +62,61 @@
       <pubDate>Sun, 24 Nov 2019 15:02:34 +0300</pubDate>
       
       <guid>http://ritasneki.ru/posts/pastila-klubnika/</guid>
-      <description>&lt;p&gt;Цена 120₽ за 50 гр&lt;/p&gt;</description>
+      <description>Яблоко-клубника 120₽ за 50 гр</description>
+    </item>
+    
+    <item>
+      <title>Фрипсы апельсиновые</title>
+      <link>http://ritasneki.ru/posts/frips-orange/</link>
+      <pubDate>Sun, 24 Nov 2019 15:02:34 +0300</pubDate>
+      
+      <guid>http://ritasneki.ru/posts/frips-orange/</guid>
+      <description>Фрипсы апельсиновые 70₽ за 50гр</description>
+    </item>
+    
+    <item>
+      <title>Фрипсы банановые</title>
+      <link>http://ritasneki.ru/posts/frips-banana/</link>
+      <pubDate>Sun, 24 Nov 2019 15:02:34 +0300</pubDate>
+      
+      <guid>http://ritasneki.ru/posts/frips-banana/</guid>
+      <description>Фрипсы банановые 60₽ за 50гр</description>
+    </item>
+    
+    <item>
+      <title>Фрипсы из Хурмы</title>
+      <link>http://ritasneki.ru/posts/frips-hurma/</link>
+      <pubDate>Sun, 24 Nov 2019 15:02:34 +0300</pubDate>
+      
+      <guid>http://ritasneki.ru/posts/frips-hurma/</guid>
+      <description>Фрипсы из хурмы 80₽ за 50гр</description>
+    </item>
+    
+    <item>
+      <title>Фрипсы из ананаса</title>
+      <link>http://ritasneki.ru/posts/frips-pineapple/</link>
+      <pubDate>Sun, 24 Nov 2019 15:02:34 +0300</pubDate>
+      
+      <guid>http://ritasneki.ru/posts/frips-pineapple/</guid>
+      <description>Фрипсы ананасовые 80₽ за 50гр</description>
+    </item>
+    
+    <item>
+      <title>Фрипсы из мандаринов</title>
+      <link>http://ritasneki.ru/posts/frips-mandarin/</link>
+      <pubDate>Sun, 24 Nov 2019 15:02:34 +0300</pubDate>
+      
+      <guid>http://ritasneki.ru/posts/frips-mandarin/</guid>
+      <description>Фрипсы мандариновые 70₽ за 50гр</description>
+    </item>
+    
+    <item>
+      <title>Фрипсы яблочные</title>
+      <link>http://ritasneki.ru/posts/frips-apple/</link>
+      <pubDate>Sun, 24 Nov 2019 15:02:34 +0300</pubDate>
+      
+      <guid>http://ritasneki.ru/posts/frips-apple/</guid>
+      <description>Фрипсы яблочные 70₽ за 50гр</description>
     </item>
     
   </channel>

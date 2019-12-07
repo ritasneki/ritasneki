@@ -1,17 +1,19 @@
 {{ if .Site.Params.backgroundImage }}
 <article class="ui raised card dream-card" style="box-shadow: none;">
-{{ else }}
-<article class="ui raised card dream-card">
-{{ end }}
-  <div class="image">
-    {{ if isset .Params "cover" }}
-      <img src="{{ .Params.cover }}" alt="{{ .Title }}" />
-    {{ else }}
-      <img src="/img/default{{ index (shuffle (seq 1 4)) 0 }}.jpg" alt="{{ .Title }}" />
+  {{ else }}
+  <article class="ui raised card dream-card">
     {{ end }}
-  </div>
-
-  <div class="content">
+    <div class="image">
+      {{ if isset .Params "cover" }}
+      <img src="{{ .Params.cover }}" alt="{{ .Title }}" />
+      {{ else }}
+      <img src="/img/default{{ index (shuffle (seq 1 4)) 0 }}.jpg" alt="{{ .Title }}" />
+      {{ end }}
+    </div>
+    <div class="extra content">
+      {{ .Summary | plainify | htmlUnescape }}
+    </div>
+    <!-- <div class="content">
     <a class="header" style="color: black !important;" href="{{ .Permalink }}">{{ .Title }}</a>
     <div class="meta">
       <p class="date">{{ .Date.Format "Monday, Jan 2, 2006" }}</p>
@@ -27,5 +29,6 @@
       <i class="clock icon"></i>
       {{ .ReadingTime }}{{ i18n "minuteRead" }}
     </a>
-  </div>
+  </div> -->
+  </article>
 </article>

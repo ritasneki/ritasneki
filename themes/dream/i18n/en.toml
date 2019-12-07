@@ -1,20 +1,20 @@
 [blogAlias]
-other = "'s blog"
+other = " "
 
 [home]
-other = "Home"
+other = "Главная"
 
 [backToHome]
-other = "Back to Home"
+other = "На главную"
 
 [flip]
-other = "Flip it!"
+other = "Перевернуть"
 
 [archives]
-other = "Archives"
+other = "Архив"
 
 [allTags]
-other = "All Tags"
+other = "Теги"
 
 [tag]
 one = "tag"
@@ -32,7 +32,7 @@ one = "1 article"
 other = "{{ .Count }} articles"
 
 [socialLinks]
-other = "Social Links"
+other = "Контакты"
 
 [minuteRead]
 other = " minute read"
