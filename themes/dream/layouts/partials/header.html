@@ -26,13 +26,13 @@
     </div> -->
   </section>
 
-  {{ if .Site.Taxonomies.tags }}
+  <!-- {{ if .Site.Taxonomies.tags }}
   <section class="ui attached center aligned segment dream-tags">
     {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
       <a class="ui label" href="{{ "tags/" | relLangURL }}{{ $name | urlize }}" title="{{ $name }}">{{ $name }}</a>
     {{ end }}
   </section>
-  {{ end }}
+  {{ end }} -->
 
   {{ if .Site.Taxonomies.categories }}
   <section class="ui attached segment dream-categories">
