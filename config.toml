@@ -6,6 +6,7 @@ theme = "dream"
 [params]
   author = "RitaSneki.ru"
   description = "Пастила, фрипсы и мясные чипсы в Санкт-Петербурге."
+  title = "Пастила, фрипсы и мясные чипсы в Санкт-Петербурге | RitaSneki.ru"
   motto = "Пастила, фрипсы и мясные чипсы. Вы можете оформить заказ написав мне в: "
   avatar = "/photos/avatar.jpg"
   whatsapp = "http://wa.me/79117641589"
