@@ -4,5 +4,9 @@ title = "RitaSneki.ru"
 theme = "dream"
 
 [params]
-  author = "RitaSneki"
+  author = "RitaSneki.ru"
+  motto = "Натуральные пастила, снеки и мясные чипсы. Вы можете оформить заказ написав мне в: "
   avatar = "/photos/avatar.jpg"
+  whatsapp = "http://wa.me/79117641589"
+  instagram = "https://instagr.am/ritasneki"
+  telegram = "https://t.me/ritasneki"

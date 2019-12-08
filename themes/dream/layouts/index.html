@@ -4,14 +4,24 @@
     {{ partial "header.html" . }}
   </div>
 
-  {{ range where .Site.RegularPages "Section" "!=" "about" }}
-    {{ if isset .Params "showcase" }}
-      <div class="sixteen wide mobile eight wide tablet eight wide computer column dream-column">
-    {{ else }}
-      <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
-    {{ end }}
-        {{ .Render "summary" }}
+  {{ range where .Site.RegularPages "Section" "!=" "about" }} {{ if isset .Params "showcase" }}
+  <div class="sixteen wide mobile eight wide tablet eight wide computer column dream-column">
+    {{ .Render "summary" }}
+  </div>
+  {{ else }}
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    {{ .Render "summary" }}
+  </div>
+
+  {{ end }} {{ end }}
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <div class="ui top attached center aligned card">
+      <div class="content">
+        Заказать можно написав мне в
       </div>
-  {{ end }}
+      {{ template "_internal/social_buttons.html" . }}
+    </div>
+  </div>
 </div>
+
 {{ end }}
