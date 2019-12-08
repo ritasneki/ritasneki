@@ -9,4 +9,5 @@ theme = "dream"
   avatar = "/photos/avatar.jpg"
   whatsapp = "http://wa.me/79117641589"
   instagram = "https://instagr.am/ritasneki"
-  telegram = "https://t.me/ritasneki"
+  telegram = "tg://resolve?domain=ritasneki"
+  # https://t.me/ritasneki
